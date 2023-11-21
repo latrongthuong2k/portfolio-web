@@ -13,12 +13,12 @@ export default function ThemeSwitch() {
     setAnimationProps({ y: -100, opacity: 0 });
     setTimeout(() => {
       setAnimationProps({ y: 0, opacity: 1 });
-    }, 300); // Thêm một khoảng trễ nhỏ
+    }, 300); // delay
   }, [theme]);
 
   return (
     <button
-      className="fixed top-5 right-5 bg-transparent w-[3rem] h-[3rem] border-none rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all"
+      className="fixed top-20 right-5 md:top-5 bg-transparent w-[3rem] h-[3rem] border-none rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all"
       onClick={toggleTheme}
     >
       {theme === "light" ? (

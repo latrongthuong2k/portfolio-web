@@ -19,7 +19,7 @@ export default function About() {
       id="about"
     >
       <div className="flex-1 pr-2">
-        <h2 className="mb-8 text-left text-3xl font-medium capitalize">
+        <h2 className=" sm:w-full mb-8 text-left text-3xl font-medium capitalize">
           About Me
         </h2>
         <p className={`mb-3`}>
