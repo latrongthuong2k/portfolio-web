@@ -1,10 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import warehouseMNGI from "@/public/WarehouseMng.png";
+import springBootApp from "@/public/BackEndApi.png";
 
 export const links = [
   {
@@ -67,25 +64,30 @@ export const educateHistory = [
 ];
 export const projectsData = [
   {
-    title: "Warehouse manager app",
+    title: "Warehouse Manager App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "This project is a comprehensive system for Admins to manage user data, products, bills, and more, " +
+      "seamlessly integrated with a Spring Boot API for data handling.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Java Spring"],
-    imageUrl: corpcommentImg,
+    imageUrl: warehouseMNGI,
+    projectUrl:
+      "https://github.com/latrongthuong2k/Web-Admin-Ecommerce-Project",
   },
+
+  // "This project features a Spring Boot backend for an online sales platform, " +
+  // "providing comprehensive APIs for security, user account storage, user role management, " +
+  // "along with essential CRUD APIs for data retrieval from the database to the end-user, and data caching." +
+  // " Integrated with a React and Next.js frontend, utilizing MySQL for database management and Tailwind for styling.",
   {
-    title: "rmtDev",
+    title: "Ecommerce Back-end Api",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This project involved developing a comprehensive Spring Boot back-end for an online " +
+      "shopping website. It included a robust set of APIs for security, managing user accounts, " +
+      "user authorization, and necessary CRUD operations to retrieve data from the database to the user." +
+      " Additionally, the project incorporated data caching for enhanced performance.",
+    tags: ["MySQL", "Java Spring"],
+    imageUrl: springBootApp,
+    projectUrl: "https://github.com/latrongthuong2k/WebE-commerce2",
   },
 ] as const;
 
