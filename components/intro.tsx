@@ -21,7 +21,7 @@ export default function Intro() {
       className="mb-20 h-screen bg-gradient-to-r from-orange-300 to-sky-400 dark:from-gray-500 dark:to-gray-700 w-full scroll-mt-[100rem] sm:mb-0"
       // className="mb-20 flex h-screen w-full scroll-mt-[100rem] flex-col justify-center bg-gray-300 text-center dark:bg-gray-700 sm:mb-0"
     >
-      <div className="pt-[200px] ">
+      <div className="pt-[11rem] ">
         <div className="items-center justify-center ">
           <div className="relative">
             <motion.div
@@ -40,10 +40,10 @@ export default function Intro() {
                 height={800}
                 quality="95"
                 priority={true}
-                className="h-[300px] w-[300px] rounded-full object-cover object-right shadow-xl"
+                className="h-[180px] w-[180px] md:w-[18rem] md:h-[18rem] rounded-full object-cover object-right shadow-xl"
               />
             </motion.div>
-            <div className="w-[32rem] mx-auto">
+            <div className="w-[20rem] md:w-[32rem] mx-auto">
               <motion.h1
                 className={`${fontText.className} mb-10 mt-6 px-4 text-3xl !leading-[1.5] sm:text-4xl`}
                 initial={{ opacity: 0, y: 100 }}
@@ -60,7 +60,7 @@ export default function Intro() {
                   delay: 0.1,
                   duration: 0.7,
                 }}
-                className="text-lg"
+                className="text-sm md:text-lg "
               >
                 Welcome to <strong>my world</strong>, where each line of code is
                 not just a <em>skill</em>, but an <strong>art</strong>. I am on
