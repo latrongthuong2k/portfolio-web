@@ -34,7 +34,7 @@ export default function Project({
     >
       <Link href={projectUrl}>
         <section
-          className="bg-gray-100 max-w-[53rem]  border border-black/5 rounded-lg overflow-hidden sm:pr-8
+          className="bg-gray-100 max-w-[50rem]  border border-black/5 rounded-lg overflow-hidden sm:pr-8
         relative sm:h-[26rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
         >
           <div

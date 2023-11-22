@@ -2,6 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import warehouseMNGI from "@/public/WarehouseMng.png";
 import springBootApp from "@/public/BackEndApi.png";
+import portfolioProject from "@/public/portfolioProject.png";
 
 export const links = [
   {
@@ -63,6 +64,16 @@ export const educateHistory = [
   },
 ];
 export const projectsData = [
+  {
+    title: "Portfolio web",
+    description:
+      "Developed a NextJs portfolio website showcasing my projects." +
+      " Features modern design with ReactJS, enhanced interactivity with Framer Motion, " +
+      "and responsive layout.",
+    tags: ["NextJS", "ReactJS", "Tailwind", "Framer Motion"],
+    imageUrl: portfolioProject,
+    projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
+  },
   {
     title: "Warehouse Manager App",
     description:
