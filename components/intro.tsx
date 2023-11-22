@@ -18,7 +18,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="mb-20 h-screen bg-gradient-to-r from-orange-300 to-sky-400 dark:from-gray-500 dark:to-gray-700 w-full scroll-mt-[100rem] sm:mb-0"
+      className="mb-20 h-auto bg-gradient-to-r from-orange-300 to-sky-400 dark:from-gray-500 dark:to-gray-700 w-full scroll-mt-[100rem] sm:mb-0"
       // className="mb-20 flex h-screen w-full scroll-mt-[100rem] flex-col justify-center bg-gray-300 text-center dark:bg-gray-700 sm:mb-0"
     >
       <div className="pt-[11rem] ">
@@ -77,7 +77,7 @@ export default function Intro() {
               ></iframe>
             </div>
             <motion.div
-              className="flex flex-col items-center justify-center gap-3 px-4 text-lg font-medium sm:flex-row"
+              className="flex flex-col items-center mb-[4rem] md:mb-[8rem] justify-center gap-3 px-4 text-lg font-medium sm:flex-row"
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{

@@ -49,7 +49,7 @@ export default function About() {
       </div>
       <div className="flex-1 md:pl-2">
         <iframe
-          className="w-full max-w-full  md:w-[32rem] md:h-[32rem] h-[22rem]"
+          className="w-full max-w-full md:w-[32rem] md:h-[32rem] h-[22rem]"
           src="https://lottie.host/?file=9d0145bc-2aef-43bf-b804-b551a49bc1bf/wQZsoy2KUS.json"
         ></iframe>
       </div>
