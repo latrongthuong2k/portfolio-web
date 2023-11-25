@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import warehouseMNGI from "@/public/WarehouseMng.png";
 import springBootApp from "@/public/BackEndApi.png";
 import portfolioProject from "@/public/portfolioProject.png";
+import lmsImage from "@/public/lms.png";
 
 export const links = [
   {
@@ -73,6 +74,15 @@ export const projectsData = [
     tags: ["NextJS", "ReactJS", "Tailwind", "Framer Motion"],
     imageUrl: portfolioProject,
     projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
+  },
+  {
+    title: "Learning Management System Web",
+    description:
+      "Developed a Front-end comprehensive Learning Management System (LMS) to manage courses, students, teachers, and user accounts. " +
+      "It features a user-friendly interface, interactive elements for enhanced user engagement",
+    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+    imageUrl: lmsImage,
+    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
   },
   {
     title: "Warehouse Manager App",

@@ -36,7 +36,7 @@ export default function About() {
             {" "}
             Java SpringBoot, React, Next.js, and MySQL
           </span>
-          . I am also very interested in the role of
+          . I am also very interested in the role of{" "}
           <span className="font-bold">DevOps</span> and always looking for
           opportunities to learn new technologies.
         </p>
