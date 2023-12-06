@@ -106,9 +106,9 @@ export const projectsData = [
       "shopping website. It included a robust set of APIs for security, managing user accounts, " +
       "user authorization, and necessary CRUD operations to retrieve data from the database to the user." +
       " Additionally, the project incorporated data caching for enhanced performance.",
-    tags: ["MySQL", "Java Spring"],
+    tags: ["MySQL", "Java Spring", "S3"],
     imageUrl: springBootApp,
-    projectUrl: "https://github.com/latrongthuong2k/WebE-commerce2",
+    projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
   },
 ] as const;
 
