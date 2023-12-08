@@ -110,7 +110,7 @@ export default function Intro() {
               </div>
               <a
                 className="group flex shadow-lg cursor-pointer items-center gap-2 rounded-full bg-gradient-to-r from-orange-300 to-sky-400 dark:from-gray-500 dark:to-gray-700 px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 "
-                href="/CV.pdf"
+                href="/CV-ltt.pdf"
                 download
               >
                 My CV{" "}
