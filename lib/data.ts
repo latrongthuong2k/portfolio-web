@@ -94,11 +94,6 @@ export const projectsData = [
     projectUrl:
       "https://github.com/latrongthuong2k/Web-Admin-Ecommerce-Project",
   },
-
-  // "This project features a Spring Boot backend for an online sales platform, " +
-  // "providing comprehensive APIs for security, user account storage, user role management, " +
-  // "along with essential CRUD APIs for data retrieval from the database to the end-user, and data caching." +
-  // " Integrated with a React and Next.js frontend, utilizing MySQL for database management and Tailwind for styling.",
   {
     title: "Ecommerce Back-end Api",
     description:
@@ -110,7 +105,69 @@ export const projectsData = [
     imageUrl: springBootApp,
     projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
   },
-] as const;
+];
+
+export const educateHistoryJP = [
+  {
+    title: "高等学校",
+    location: "ベトナム",
+    description:
+      "高校時代、数学と物理に情熱を注ぎ、国際的に活躍するために外国語を習得することに力を入れていました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2015 - 2018",
+  },
+  {
+    title: "語学学校",
+    location: "東京、日本",
+    description:
+      "日本語を学ぶ間、言語の習得に専念し、N2の熟練度を達成しました。これにより、ネイティブスピーカーと自信を持ってコミュニケーションを取ることができました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018 - 2020",
+  },
+  {
+    title: "専門学校",
+    location: "東京、日本",
+    description:
+      "東京デザインテクノロジーセンター専門学校で、プログラミングスキル、アルゴリズムの解決、バグ修正、テストに焦点を当てました。ゲーム開発やウェブサイト設計を含む様々な実践プロジェクトに携わりました。特に2年目の主要な試験での学業優秀さが、30万円の奨学金を得ることにつながりました。",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2023",
+  },
+];
+export const projectsDataJP = [
+  {
+    title: "ポートフォリオウェブ",
+    description:
+      "自分のプロジェクトを紹介するNextJsのポートフォリオウェブサイトを開発しました。ReactJSによるモダンなデザイン、Framer Motionによるインタラクティビティの向上、レスポンシブなレイアウトが特徴です。",
+    tags: ["NextJS", "ReactJS", "Tailwind", "Framer Motion"],
+    imageUrl: portfolioProject,
+    projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
+  },
+  {
+    title: "学習管理システムWeb",
+    description:
+      "コース、学生、教師、ユーザーアカウントを管理するためのフロントエンド包括的な学習管理システム(LMS)を開発しました。ユーザーフレンドリーなインターフェースと、ユーザーエンゲージメントを向上させるインタラクティブな要素が特徴です。",
+    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+    imageUrl: lmsImage,
+    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
+  },
+  {
+    title: "倉庫管理アプリ",
+    description:
+      "このプロジェクトは、ユーザーデータ、製品、請求書などを管理するための管理者向けの包括的なシステムです。データ処理のためのSpring Boot APIとシームレスに統合されています。",
+    tags: ["React", "Next.js", "MySQL", "Tailwind", "Java Spring"],
+    imageUrl: warehouseMNGI,
+    projectUrl:
+      "https://github.com/latrongthuong2k/Web-Admin-Ecommerce-Project",
+  },
+  {
+    title: "EコマースバックエンドApi",
+    description:
+      "このプロジェクトでは、オンラインショッピングウェブサイトのための包括的なSpring Bootバックエンドを開発しました。セキュリティ、ユーザーアカウントの管理、ユーザー認証、データベースからユーザーへのデータを取得するための必要なCRUD操作の堅牢なAPIセットが含まれています。さらに、パフォーマンスを向上させるためにデータキャッシングを取り入れました。",
+    tags: ["MySQL", "Java Spring", "S3"],
+    imageUrl: springBootApp,
+    projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
+  },
+];
 
 export const skillsData = [
   "HTML",

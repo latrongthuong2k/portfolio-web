@@ -1,11 +1,10 @@
 "use client";
-import { useTheme } from "@/context/theme-context";
 import React, { useEffect, useState } from "react";
-import { BsMoon, BsSun } from "react-icons/bs";
 import { motion } from "framer-motion";
+import { useLanguage } from "@/context/language-context";
 
-export default function ThemeSwitch() {
-  const { theme, toggleTheme } = useTheme();
+export default function LanguageSwitch() {
+  const { language, toggleLanguage } = useLanguage();
   const [animationProps, setAnimationProps] = useState({ y: -100, opacity: 0 });
 
   useEffect(() => {
@@ -13,20 +12,20 @@ export default function ThemeSwitch() {
     setTimeout(() => {
       setAnimationProps({ y: 0, opacity: 1 });
     }, 300); // delay
-  }, [theme]);
+  }, [language]);
 
   return (
     <button
-      className="fixed top-20 right-5 md:top-5 bg-transparent w-[3rem] h-[3rem] border-none rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all"
-      onClick={toggleTheme}
+      className="fixed top-20 right-20 md:top-5 bg-transparent w-[3rem] h-[3rem] border-none rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all"
+      onClick={toggleLanguage}
     >
-      {theme === "light" ? (
+      {language === "JP" ? (
         <motion.div initial={{ y: -100, opacity: 0 }} animate={animationProps}>
-          <BsSun />
+          JP
         </motion.div>
       ) : (
         <motion.div initial={{ y: -100, opacity: 0 }} animate={animationProps}>
-          <BsMoon />
+          EN
         </motion.div>
       )}
     </button>

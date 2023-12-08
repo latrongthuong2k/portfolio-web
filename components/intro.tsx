@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import { HiDownload } from "react-icons/hi";
 import { FaLinkedin } from "react-icons/fa";
@@ -9,11 +9,63 @@ import { useSectionInView } from "@/lib/hooks";
 import { Sacramento } from "next/font/google";
 import Image from "next/image";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { useLanguage } from "@/context/language-context";
 
 const fontText = Sacramento({ subsets: ["latin"], weight: ["400"] });
+
+function IntroTitleJP() {
+  return <> こんにちは。私の名前はトゥオンです。 </>;
+}
+
+function IntroTitleEN() {
+  return <> Hi. I'm Thuong </>;
+}
+
+function IntroContentJP() {
+  return (
+    <>
+      <strong>私の世界</strong>へようこそ。ここでは、各行のコードは単なる
+      <em>スキル</em>ではなく、<strong>芸術</strong>です。私は
+      <em>ウェブ開発者</em>から<strong>フルスタック開発者</strong>
+      になる道の途中です。
+    </>
+  );
+}
+
+function IntroContentEN() {
+  return (
+    <>
+      Welcome to <strong>my world</strong>, where each line of code is not just
+      a <em>skill</em>, but an <strong>art</strong>. I am on a path from being a{" "}
+      <em>web developer</em> to becoming a <strong>full-stack developer</strong>
+      .
+    </>
+  );
+}
+
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-
+  const { language } = useLanguage();
+  const selectedLanguageTitle = useMemo(() => {
+    switch (language) {
+      case "JP":
+        return <IntroTitleJP />;
+      case "EN":
+        return <IntroTitleEN />;
+      default:
+        return null;
+    }
+  }, [language]);
+  const selectedLanguageContent = useMemo(() => {
+    switch (language) {
+      case "JP":
+        return <IntroContentJP />;
+      case "EN":
+        return <IntroContentEN />;
+      default:
+        return null;
+    }
+  }, [language]);
   return (
     <section
       ref={ref}
@@ -49,7 +101,7 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
               >
-                Hi. I'm Thuong
+                {selectedLanguageTitle}
               </motion.h1>
               <motion.span
                 initial={{ opacity: 0, scale: 0 }}
@@ -62,10 +114,7 @@ export default function Intro() {
                 }}
                 className="text-sm md:text-lg "
               >
-                Welcome to <strong>my world</strong>, where each line of code is
-                not just a <em>skill</em>, but an <strong>art</strong>. I am on
-                a path from being a <em>web developer</em> to becoming a{" "}
-                <strong>full-stack developer</strong>.
+                {selectedLanguageContent}
               </motion.span>
             </div>
 
