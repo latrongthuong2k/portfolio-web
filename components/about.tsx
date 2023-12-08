@@ -13,10 +13,10 @@ function AboutContentJP() {
       </h2>
       <p>
         こんにちは！私の名前はThuongです。{" "}
-        <span className="font-bold"> ITデザイン</span>学部を卒業した後、
+        <span className="font-bold"> ITデザイン</span>学科を卒業した後、
         <span className="font-bold">
           {" "}
-          東京デザインテクノロジーセンターカレッジ
+          東京デザインテクノロジーセンター専門学校
         </span>
         で、プログラミングのキャリアを追求し、ウェブ開発者になることを決めました。
         <span className="italic">プログラミングのお気に入りの部分</span>
