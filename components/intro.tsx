@@ -14,7 +14,7 @@ import { useLanguage } from "@/context/language-context";
 const fontText = Sacramento({ subsets: ["latin"], weight: ["400"] });
 
 function IntroTitleJP() {
-  return <> こんにちは。私の名前はトゥオンです。 </>;
+  return <> こんにちは。私の名前はThuongです。 </>;
 }
 
 function IntroTitleEN() {
