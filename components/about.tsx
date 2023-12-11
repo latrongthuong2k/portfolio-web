@@ -65,7 +65,7 @@ function AboutContentEN() {
         <span className="font-bold">DevOps</span> and always looking for
         opportunities to learn new technologies.
       </p>
-      <p className={"pt-[1rem] md:pt-0"}>
+      <p className={"pt-[1rem]"}>
         <span className="italic">When not coding</span>, I enjoy playing video
         games, running for relaxation, and spending time learning drawing. These
         hobbies help me balance my life and enhance my creativity at work.
