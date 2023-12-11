@@ -12,14 +12,15 @@ function AboutContentJP() {
         私について
       </h2>
       <p>
-        こんにちは！私の名前はThuongです。{" "}
-        <span className="font-bold"> ITデザイン</span>学科を卒業した後、
+        こんにちは！私の名前はThuongです。
+        <span className="font-bold"> ITデザイン学科</span>の
         <span className="font-bold">
           {" "}
           東京デザインテクノロジーセンター専門学校
         </span>
-        で、プログラミングのキャリアを追求し、ウェブ開発者になることを決めました。
-        <span className="italic">プログラミングのお気に入りの部分</span>
+        を卒業した後、
+        プログラミングのキャリアを追求し、ウェブ開発者になることを決心しました。
+        <span className="italic">プログラミングでのお気に入りの部分</span>
         は問題解決です。難しい問題に対する解決策を見つける感覚が
         <span className="underline">大好き</span>です。私の主なスキルには
         <span className="font-bold">
@@ -28,9 +29,9 @@ function AboutContentJP() {
         </span>
         が含まれます。また、
         <span className="font-bold">DevOps</span>
-        の役割にも非常に興味があり、常に新しいテクノロジを学ぶ機会を探しています。
+        の役割にも非常に興味があり、常に新しい技術を学ぶ機会を探しています。
       </p>
-      <p className={"pt-[1rem] md:pt-0"}>
+      <p className={"pt-[1rem]"}>
         <span className="italic">コーディングしていないとき</span>
         、私はビデオゲームを楽しんだり、リラックスのためにランニングをしたり、絵を学ぶ時間を過ごすのが好きです。
         これらの趣味は、私の人生をバランスさせ、仕事での創造性を高めるのに役立ちます。
