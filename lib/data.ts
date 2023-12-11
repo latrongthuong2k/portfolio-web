@@ -75,15 +75,15 @@ export const projectsData = [
     imageUrl: portfolioProject,
     projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
   },
-  {
-    title: "Learning Management System Web",
-    description:
-      "Developed a Front-end comprehensive Learning Management System (LMS) to manage courses, students, teachers, and user accounts. " +
-      "It features a user-friendly interface, interactive elements for enhanced user engagement",
-    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
-    imageUrl: lmsImage,
-    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
-  },
+  // {
+  //   title: "Learning Management System Web",
+  //   description:
+  //     "Developed a Front-end comprehensive Learning Management System (LMS) to manage courses, students, teachers, and user accounts. " +
+  //     "It features a user-friendly interface, interactive elements for enhanced user engagement",
+  //   tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+  //   imageUrl: lmsImage,
+  //   projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
+  // },
   {
     title: "Warehouse Manager App",
     description:
@@ -95,13 +95,13 @@ export const projectsData = [
       "https://github.com/latrongthuong2k/Web-Admin-Ecommerce-Project",
   },
   {
-    title: "Ecommerce Back-end Api",
+    title: "Back-end Api for Ecommerce-App & Warehouse-App",
     description:
       "This project involved developing a comprehensive Spring Boot back-end for an online " +
-      "shopping website. It included a robust set of APIs for security, managing user accounts, " +
+      "shopping website and admin warehouse website. It included a robust set of APIs for security, managing user accounts, " +
       "user authorization, and necessary CRUD operations to retrieve data from the database to the user." +
       " Additionally, the project incorporated data caching for enhanced performance.",
-    tags: ["MySQL", "Java Spring", "S3"],
+    tags: ["MySQL", "Java Spring", "AWS-S3", "AWS-Ec2"],
     imageUrl: springBootApp,
     projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
   },
@@ -142,14 +142,14 @@ export const projectsDataJP = [
     imageUrl: portfolioProject,
     projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
   },
-  {
-    title: "学習管理システムWeb",
-    description:
-      "コース、学生、教師、ユーザーアカウントを管理するためのフロントエンド包括的な学習管理システム(LMS)を開発しました。ユーザーフレンドリーなインターフェースと、ユーザーエンゲージメントを向上させるインタラクティブな要素が特徴です。",
-    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
-    imageUrl: lmsImage,
-    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
-  },
+  // {
+  //   title: "学習管理システムWeb",
+  //   description:
+  //     "コース、学生、教師、ユーザーアカウントを管理するためのフロントエンド包括的な学習管理システム(LMS)を開発しました。ユーザーフレンドリーなインターフェースと、ユーザーエンゲージメントを向上させるインタラクティブな要素が特徴です。",
+  //   tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+  //   imageUrl: lmsImage,
+  //   projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
+  // },
   {
     title: "倉庫管理アプリ",
     description:
@@ -162,8 +162,10 @@ export const projectsDataJP = [
   {
     title: "EコマースバックエンドApi",
     description:
-      "このプロジェクトでは、オンラインショッピングウェブサイトのための包括的なSpring Bootバックエンドを開発しました。セキュリティ、ユーザーアカウントの管理、ユーザー認証、データベースからユーザーへのデータを取得するための必要なCRUD操作の堅牢なAPIセットが含まれています。さらに、パフォーマンスを向上させるためにデータキャッシングを取り入れました。",
-    tags: ["MySQL", "Java Spring", "S3"],
+      "このプロジェクトでは、オンラインショッピングウェブサイトと倉庫管理ウェブアプリケーションウェブサイトのための包括的なSpring Bootバックエンドを開発しました。" +
+      "セキュリティ、ユーザーアカウントの管理、ユーザー認証、データベースからユーザーへのデータを取得するための必要なCRUD操作の堅牢なAPIセットが含まれています。" +
+      "さらに、パフォーマンスを向上させるためにデータキャッシングを取り入れました。",
+    tags: ["MySQL", "Java Spring", "AWS-S3", "AWS-Ec2"],
     imageUrl: springBootApp,
     projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
   },
