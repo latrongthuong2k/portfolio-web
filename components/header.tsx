@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -35,7 +35,7 @@ export default function Header() {
                 className={clsx(
                   "flex w-full h-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-400 dark:hover:text-gray-100",
                   {
-                    "text-gray-950 dark:text-gray-100":
+                    "text-gray-950 dark:text-orange-300":
                       activeSection === link.name,
                   },
                 )}

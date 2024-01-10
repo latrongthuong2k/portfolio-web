@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createElement } from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import warehouseMNGI from "@/public/WarehouseMng.png";
 import springBootApp from "@/public/BackEndApi.png";
@@ -49,7 +49,7 @@ export const educateHistory = [
       "During my time studying Japanese, I dedicated myself to mastering the language, " +
       "culminating in achieving the N2 proficiency level. " +
       "This enabled me to communicate confidently with native speakers.",
-    icon: React.createElement(LuGraduationCap),
+    icon: createElement(LuGraduationCap),
     date: "2018 - 2020",
   },
   {
@@ -60,7 +60,7 @@ export const educateHistory = [
       "algorithm solving, bug fixing, and testing. I engaged in various practical projects," +
       " including game development and website design. My academic excellence, " +
       "especially in key examinations during my second year, earned me a scholarship worth 300,000 yen.",
-    icon: React.createElement(LuGraduationCap),
+    icon: createElement(LuGraduationCap),
     date: "2020 - 2023",
   },
 ];
@@ -142,14 +142,14 @@ export const projectsDataJP = [
     imageUrl: portfolioProject,
     projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
   },
-  // {
-  //   title: "学習管理システムWeb",
-  //   description:
-  //     "コース、学生、教師、ユーザーアカウントを管理するためのフロントエンド包括的な学習管理システム(LMS)を開発しました。ユーザーフレンドリーなインターフェースと、ユーザーエンゲージメントを向上させるインタラクティブな要素が特徴です。",
-  //   tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
-  //   imageUrl: lmsImage,
-  //   projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
-  // },
+  {
+    title: "学習管理システムWeb",
+    description:
+      "コース、学生、教師、ユーザーアカウントを管理するためのフロントエンド包括的な学習管理システム(LMS)を開発しました。ユーザーフレンドリーなインターフェースと、ユーザーエンゲージメントを向上させるインタラクティブな要素が特徴です。",
+    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+    imageUrl: lmsImage,
+    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
+  },
   {
     title: "倉庫管理アプリ",
     description:
@@ -167,7 +167,7 @@ export const projectsDataJP = [
       "さらに、パフォーマンスを向上させるためにデータキャッシングを取り入れました。",
     tags: ["MySQL", "Java Spring", "AWS-S3", "AWS-Ec2"],
     imageUrl: springBootApp,
-    projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
+    projectUrl: "https://github.com/latrongthuong2k/Full-stack-ecommerce",
   },
 ];
 

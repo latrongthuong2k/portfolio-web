@@ -169,50 +169,6 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      {/*<div className="flex-1 text-center pt-[300px] bg-gradient-to-r from-teal-500 via-emerald-400 to-sky-300">*/}
-      {/*<iframe src="https://lottie.host/?file=26fb1cf7-d96b-4ee4-8794-98301cc54359/PTWCm2BItz.json"></iframe>*/}
-
-      {/*<motion.h1*/}
-      {/*  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"*/}
-      {/*  initial={{ opacity: 0, y: 100 }}*/}
-      {/*  animate={{ opacity: 1, y: 0 }}*/}
-      {/*>*/}
-      {/*  text*/}
-      {/*</motion.h1>*/}
-      {/*<motion.div*/}
-      {/*  className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"*/}
-      {/*  initial={{ opacity: 0, y: 100 }}*/}
-      {/*  animate={{ opacity: 1, y: 0 }}*/}
-      {/*  transition={{*/}
-      {/*    delay: 0.1,*/}
-      {/*  }}*/}
-      {/*>*/}
-      {/*  <a*/}
-      {/*    className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"*/}
-      {/*    href="/CV.pdf"*/}
-      {/*    download*/}
-      {/*  >*/}
-      {/*    Download CV{" "}*/}
-      {/*    <HiDownload className="opacity-60 transition group-hover:translate-y-1" />*/}
-      {/*  </a>*/}
-
-      {/*  <a*/}
-      {/*    className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-5 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"*/}
-      {/*    href="https://linkedin.com"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    <LinkedInIcon />*/}
-      {/*  </a>*/}
-
-      {/*  <a*/}
-      {/*    className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-5 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"*/}
-      {/*    href="https://github.com"*/}
-      {/*    target="_blank"*/}
-      {/*  >*/}
-      {/*    <FaGithubSquare />*/}
-      {/*  </a>*/}
-      {/*</motion.div>*/}
-      {/*</div>*/}
     </section>
   );
 }
