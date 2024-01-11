@@ -75,15 +75,15 @@ export const projectsData = [
     imageUrl: portfolioProject,
     projectUrl: "https://github.com/latrongthuong2k/portfolio-web",
   },
-  // {
-  //   title: "Learning Management System Web",
-  //   description:
-  //     "Developed a Front-end comprehensive Learning Management System (LMS) to manage courses, students, teachers, and user accounts. " +
-  //     "It features a user-friendly interface, interactive elements for enhanced user engagement",
-  //   tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
-  //   imageUrl: lmsImage,
-  //   projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
-  // },
+  {
+    title: "Learning Management System Web",
+    description:
+      "Developed a Front-end comprehensive Learning Management System (LMS) to manage courses, students, teachers, and user accounts. " +
+      "It features a user-friendly interface, interactive elements for enhanced user engagement",
+    tags: ["Html", "Css", "JavaScript", "Bootstrap 5"],
+    imageUrl: lmsImage,
+    projectUrl: "https://github.com/latrongthuong2k/studentManagementWeb",
+  },
   {
     title: "Warehouse Manager App",
     description:
@@ -103,7 +103,7 @@ export const projectsData = [
       " Additionally, the project incorporated data caching for enhanced performance.",
     tags: ["MySQL", "Java Spring", "AWS-S3", "AWS-Ec2"],
     imageUrl: springBootApp,
-    projectUrl: "https://github.com/latrongthuong2k/Web-E-commerce-BE-Project",
+    projectUrl: "https://github.com/latrongthuong2k/Full-stack-ecommerce",
   },
 ];
 
