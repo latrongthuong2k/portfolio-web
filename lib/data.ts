@@ -59,7 +59,7 @@ export const educateHistory = [
       "At Tokyo Design Technology Center College, my focus was on honing programming skills, " +
       "algorithm solving, bug fixing, and testing. I engaged in various practical projects," +
       " including game development and website design. My academic excellence, " +
-      "especially in key examinations during my second year, earned me a scholarship.",
+      "especially in key examinations during my second year, earned me a scholarship worth 300,000 yen.",
     icon: createElement(LuGraduationCap),
     date: "2020 - 2023",
   },
@@ -128,8 +128,7 @@ export const educateHistoryJP = [
     title: "専門学校",
     location: "東京、日本",
     description:
-      "東京デザインテクノロジーセンター専門学校で、プログラミングスキル、アルゴリズムの解決、バグ修正、テストに焦点を当てました。" +
-      "ゲーム開発やウェブサイト設計を含む様々な実践プロジェクトに携わりました。特に2年目の主要試験での学業優秀さが、奨学金を得ることにつながりました。",
+      "東京デザインテクノロジーセンター専門学校で、プログラミングスキル、アルゴリズムの解決、バグ修正、テストに焦点を当てました。ゲーム開発やウェブサイト設計を含む様々な実践プロジェクトに携わりました。特に2年目の主要な試験での学業優秀さが、30万円の奨学金を得ることにつながりました。",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2023",
   },
